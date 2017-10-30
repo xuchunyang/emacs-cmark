@@ -27,6 +27,10 @@
 
 (require 'cmark-module)
 
+;;;###autoload
+(defun cmark-markdown-to-html (markdown)
+  "Convert Markdown to HTML."
+  (cmark-module-markdown-to-html markdown))
 
 (provide 'cmark)
 ;;; cmark.el ends here
